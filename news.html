@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News – OAK Lab</title>
+  <meta name="description" content="Latest news and updates from the OAK Lab at CMU HCII.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAVIGATION ──────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="container nav__container">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon">🌿</div>
+      <span class="nav__logo-text">OAK Lab</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks" role="list">
+      <li><a href="research.html"     class="nav__link">Research</a></li>
+      <li><a href="publications.html" class="nav__link">Publications</a></li>
+      <li><a href="people.html"       class="nav__link">People</a></li>
+      <li><a href="news.html"         class="nav__link">News</a></li>
+      <li><a href="contact.html"      class="nav__link">Contact</a></li>
+      <li><a href="contact.html#join" class="nav__link nav__link--cta">Join the Lab</a></li>
+    </ul>
+    <div class="nav__affiliation">CMU · HCII</div>
+  </div>
+</nav>
+
+<!-- ── PAGE HEADER ──────────────────────────────────────────────────── -->
+<header class="page-header">
+  <div class="container">
+    <div class="page-header__inner">
+      <div class="page-header__label">Updates</div>
+      <h1>News</h1>
+      <p class="page-header__desc">Press coverage, publications, grants, and announcements from the OAK Lab.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--3">
+
+        <!-- News 1 -->
+        <div class="news-card">
+          <div class="news-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/>
+              <circle cx="5" cy="19" r="1"/>
+            </svg>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__source">CMU News</div>
+            <h3 class="news-card__title">New seed grant to develop a mastery-based learning feedback tool</h3>
+            <p class="news-card__excerpt">The lab received one of three CMU seed grants for generative AI and education research, funding the development of a tool that delivers mastery-based learning feedback at scale. The work sits at the intersection of adaptive learning systems and generative AI.</p>
+            <div class="news-card__footer">
+              <span class="news-card__date">June 2025</span>
+              <a href="https://cmu.edu/news/stories/archives/2025/june/three-seed-grants-awarded-for-generative-ai-and-education-research" target="_blank" rel="noopener" class="news-card__link">Read the story →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- News 2 -->
+        <div class="news-card">
+          <div class="news-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__source">CS @ CMU</div>
+            <h3 class="news-card__title">Practice Makes Perfect</h3>
+            <p class="news-card__excerpt">Carnegie Mellon's CS news highlights research from the OAK Lab on the cognitive science of practice. The work examines why and how deliberate practice, when paired with effective feedback, produces stronger and more durable learning outcomes than passive lecture.</p>
+            <div class="news-card__footer">
+              <span class="news-card__date">2025</span>
+              <a href="https://cs.cmu.edu/news/2025/practice-makes-perfect" target="_blank" rel="noopener" class="news-card__link">Read the story →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- News 3 -->
+        <div class="news-card">
+          <div class="news-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__source">ECR Hub</div>
+            <h3 class="news-card__title">Supporting long-term student learning in math and science</h3>
+            <p class="news-card__excerpt">An ECR Hub impact story profiles OAK Lab research on translating evidence-based learning science into classroom interventions. The feature covers the lab's efforts to build sustainable educational technologies that work in real schools across diverse communities.</p>
+            <div class="news-card__footer">
+              <span class="news-card__date">Recent</span>
+              <a href="https://ecrhub.org/impact-stories/supporting-long-term-student-learning-math-and-science" target="_blank" rel="noopener" class="news-card__link">Read the story →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ── FOOTER ────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="footer__logo-icon">🌿</div>
+          <span class="footer__logo-text">OAK Lab</span>
+        </div>
+        <p class="footer__desc">Optimized Algorithms &amp; Knowledge Lab — developing computational models of learning at Carnegie Mellon University's Human-Computer Interaction Institute.</p>
+      </div>
+      <div>
+        <div class="footer__heading">Pages</div>
+        <ul class="footer__nav-links">
+          <li><a href="research.html" class="footer__link">Research</a></li>
+          <li><a href="people.html"   class="footer__link">People</a></li>
+          <li><a href="news.html"     class="footer__link">News</a></li>
+          <li><a href="contact.html"  class="footer__link">Contact</a></li>
+          <li><a href="contact.html#join" class="footer__link">Join the Lab</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Contact</div>
+        <div class="footer__contact-item"><a href="mailto:oaklab@andrew.cmu.edu">oaklab@andrew.cmu.edu</a></div>
+        <div class="footer__contact-item"><a href="mailto:pcarvalh@cs.cmu.edu">pcarvalh@cs.cmu.edu</a></div>
+        <div class="footer__contact-item" style="margin-top:1rem; font-size:0.8rem; color:rgba(255,255,255,0.3); line-height:1.6;">
+          Human-Computer Interaction Institute<br>Carnegie Mellon University<br>Pittsburgh, PA
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__copyright">© 2025 OAK Lab. Logo design by Jane Hu.</span>
+      <span class="footer__affiliation">Part of CMU's <a href="https://hcii.cmu.edu" target="_blank" rel="noopener">Human-Computer Interaction Institute</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
