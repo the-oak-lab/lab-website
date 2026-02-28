@@ -4,32 +4,32 @@
 
 /* --- 1. CUSTOM PROPERTIES --- */
 :root {
-  --oak-darkest: #0f1f16;
-  --oak-dark:    #183024;
-  --oak-primary: #1e3d2b;
-  --oak-medium:  #2a5c3f;
-  --oak-light:   #3c7a57;
-  --oak-lighter: #5a9e74;
-  --oak-pale:    #c8e6d4;
-  --oak-faint:   #e8f5ec;
-  --oak-bg:      #f2faf5;
+  --oak-darkest: #160800;
+  --oak-dark:    #2c1400;
+  --oak-primary: #8b3a00;
+  --oak-medium:  #c05a00;
+  --oak-light:   #e07020;
+  --oak-lighter: #f09040;
+  --oak-pale:    #f8d0a8;
+  --oak-faint:   #fff3e6;
+  --oak-bg:      #fff8f0;
 
   --amber:       #c17e24;
   --amber-dark:  #9b6519;
   --amber-light: #d4943a;
   --amber-faint: #fdf3e0;
 
-  --text:        #1a2520;
-  --text-mid:    #3d5448;
-  --text-soft:   #627a6e;
-  --text-muted:  #8da99a;
+  --text:        #1a1208;
+  --text-mid:    #3d2c1a;
+  --text-soft:   #6b5040;
+  --text-muted:  #9a7c68;
 
-  --border:       #d4e6da;
-  --border-light: #e8f2eb;
+  --border:       #e8d0b8;
+  --border-light: #f2e4d4;
 
   --white:   #ffffff;
-  --bg:      #fafcfb;
-  --bg-soft: #f4f8f5;
+  --bg:      #fffaf5;
+  --bg-soft: #fdf4e8;
 
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 
@@ -311,7 +311,7 @@ strong { font-weight: 600; color: var(--text); }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 15% 70%, rgba(60,122,87,0.45) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 70%, rgba(224,112,32,0.45) 0%, transparent 55%),
     radial-gradient(ellipse at 85% 20%, rgba(193,126,36,0.2) 0%, transparent 50%);
 }
 .hero::after {
@@ -410,7 +410,7 @@ strong { font-weight: 600; color: var(--text); }
   inset: 0;
   background:
     radial-gradient(ellipse at 80% 50%, rgba(193,126,36,0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 10% 80%, rgba(60,122,87,0.3) 0%, transparent 50%);
+    radial-gradient(ellipse at 10% 80%, rgba(224,112,32,0.3) 0%, transparent 50%);
 }
 .page-header__inner { position: relative; z-index: 1; }
 .page-header__label {
@@ -736,8 +736,8 @@ strong { font-weight: 600; color: var(--text); }
 .avatar--md { width: 52px;  height: 52px;  font-size: 1rem;   border-radius: var(--radius-sm); }
 .avatar--sm { width: 40px;  height: 40px;  font-size: 0.85rem; border-radius: var(--radius-sm); }
 
-.av-green        { background-color: #1e5c35; }
-.av-green-light  { background-color: #3c7a57; }
+.av-green        { background-color: #8b3a00; }
+.av-green-light  { background-color: #c05a00; }
 .av-amber        { background-color: #b07025; }
 .av-teal         { background-color: #1d6b7a; }
 .av-purple       { background-color: #5a4abf; }
