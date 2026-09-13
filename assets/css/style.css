@@ -99,7 +99,7 @@ nav ul a:hover, nav ul a.active { color: var(--color-accent); text-decoration: n
 #hero .tagline {
   font-size: 1.1rem;
   color: var(--color-text-muted);
-  max-width: 620px;
+  max-width: 720px;
   margin: 0 auto 12px;
 }
 
