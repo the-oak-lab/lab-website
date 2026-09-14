@@ -3,11 +3,11 @@
 
 :root {
   --color-bg: #ffffff;
-  --color-bg-alt: #f5f7fa;
+  --color-bg-alt: #f8f6f3;
   --color-text: #1a1a2e;
   --color-text-muted: #5a6a7a;
-  --color-accent: #2563eb;
-  --color-accent-hover: #1d4ed8;
+  --color-accent: #c2410c;
+  --color-accent-hover: #9a3412;
   --color-border: #e2e8f0;
   --color-award: #b45309;
   --color-award-bg: #fef3c7;
@@ -149,6 +149,7 @@ section h2 {
 .card {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-accent);
   border-radius: var(--radius);
   padding: 28px;
 }
