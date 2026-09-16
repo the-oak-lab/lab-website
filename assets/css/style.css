@@ -16,6 +16,31 @@
   --radius: 8px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #161618;
+    --color-bg-alt: #1e1e21;
+    --color-text: #ededf0;
+    --color-text-muted: #8e9aaa;
+    --color-accent: #e8734a;
+    --color-accent-hover: #c2410c;
+    --color-border: #2e2e34;
+    --color-award: #fbbf24;
+    --color-award-bg: #3a1f00;
+  }
+}
+:root[data-theme="dark"] {
+  --color-bg: #161618;
+  --color-bg-alt: #1e1e21;
+  --color-text: #ededf0;
+  --color-text-muted: #8e9aaa;
+  --color-accent: #e8734a;
+  --color-accent-hover: #c2410c;
+  --color-border: #2e2e34;
+  --color-award: #fbbf24;
+  --color-award-bg: #3a1f00;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -403,6 +428,20 @@ footer {
   font-size: 0.82rem;
   color: var(--color-text-muted);
 }
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 8px;
+  color: var(--color-text-muted);
+  line-height: 1;
+  transition: border-color 0.15s;
+}
+.theme-toggle:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
 /* ── Hamburger ── */
 .nav-toggle {
