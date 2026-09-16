@@ -21,14 +21,17 @@
         <img src="assets/img/logo.png" alt="OAK Lab" class="logo-img" onerror="this.style.display='none';this.nextSibling.style.display='inline'" />
         <span style="display:none">OAK Lab</span>
       </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('ul').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
       <ul>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#people">People</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#materials">Materials</a></li>
-        <li><a href="#blog">Lab Life</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#research" onclick="this.closest('ul').classList.remove('open')">Research</a></li>
+        <li><a href="#people" onclick="this.closest('ul').classList.remove('open')">People</a></li>
+        <li><a href="#news" onclick="this.closest('ul').classList.remove('open')">News</a></li>
+        <li><a href="#publications" onclick="this.closest('ul').classList.remove('open')">Publications</a></li>
+        <li><a href="#materials" onclick="this.closest('ul').classList.remove('open')">Materials</a></li>
+        <li><a href="#blog" onclick="this.closest('ul').classList.remove('open')">Lab Life</a></li>
+        <li><a href="#contact" onclick="this.closest('ul').classList.remove('open')">Contact</a></li>
       </ul>
     </nav>
   </header>
