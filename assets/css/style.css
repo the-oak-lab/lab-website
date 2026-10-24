@@ -357,6 +357,9 @@ section h2 {
   background: var(--color-bg-alt);
 }
 
+a.blog-card { display: block; text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+a.blog-card:hover { border-color: var(--color-accent); transform: translateY(-2px); }
+
 .blog-img {
   width: 100%;
   aspect-ratio: 4 / 3;
