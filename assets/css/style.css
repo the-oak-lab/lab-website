@@ -357,8 +357,11 @@ section h2 {
   background: var(--color-bg-alt);
 }
 
-a.blog-card { display: block; text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
-a.blog-card:hover { border-color: var(--color-accent); transform: translateY(-2px); }
+a.blog-card { display: block; text-decoration: none; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; }
+a.blog-card .blog-img { transition: transform 0.3s; }
+a.blog-card:hover { border-color: var(--color-accent); transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); text-decoration: none; }
+a.blog-card:hover .blog-img { transform: scale(1.05); }
+a.blog-card:hover .blog-caption { color: var(--color-accent); }
 
 .blog-img {
   width: 100%;
